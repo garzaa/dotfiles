@@ -128,3 +128,8 @@ function cpy {
     cat $1 | xclip -i -selection clipboard
     echo "$1 copied to clipboard"
 }
+
+
+alias ranger='ranger --choosedir=$HOME/rangerdir; LASTDIR=`cat $HOME/rangerdir`; cd "$LASTDIR"'
+alias tmux="TERM=screen-256color-bce tmux"
+export TERM=xterm-256color
