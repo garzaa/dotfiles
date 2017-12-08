@@ -611,3 +611,5 @@ imap <script> <Plug>AutoPairsReturn <SID>AutoPairsReturn
 
 au BufEnter * :call AutoPairsTryInit()
 
+colorscheme gruvbox
+set background=dark
