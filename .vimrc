@@ -613,3 +613,5 @@ au BufEnter * :call AutoPairsTryInit()
 
 colorscheme gruvbox
 set background=dark
+
+cmap w!! w !sudo tee % > /dev/null
