@@ -1,3 +1,3 @@
-.blob-code-inner {
+.blob-code-inner, .CodeMirror-code {
 	font-family: "Fira Code" !important;
 }
