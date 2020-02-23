@@ -16,12 +16,11 @@
     "git.confirmSync": false,
     "window.zoomLevel": 0,
 
-    "editor.fontFamily": "Consolas, 'Courier New', monospace",
+    "editor.fontFamily": "Fira Code", "Consolas, 'Courier New', monospace",
     "python.linting.enabledWithoutWorkspace": false,
     "workbench.startupEditor": "newUntitledFile",
     "typescript.check.npmIsInstalled": false,
     "material-icon-theme.showUpdateMessage": false,
-    "workbench.colorTheme": "One Dark Pro",
     "explorer.confirmDelete": false,
     "window.titleBarStyle": "custom",
     "files.autoSave": "afterDelay",
