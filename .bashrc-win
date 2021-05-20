@@ -1,0 +1,11 @@
+alias ls="ls -G"
+alias gs="git status"
+alias gd="git diff"
+alias butler="D:/Program\ Files/butler-windows-amd64/butler.exe"
+alias choco="C:/ProgramData/chocolatey/choco.exe"
+
+function autogit() {
+    git add -A
+    git commit -m "$*"
+    git push
+}
