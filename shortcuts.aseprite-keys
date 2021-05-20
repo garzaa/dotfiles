@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<keyboard version="1">
+    <commands>
+        <key command="CopyMerged" shortcut="Ctrl+Shift+C" removed="true" />
+        <key command="CanvasSize" shortcut="C" removed="true" />
+        <key command="CanvasSize" shortcut="Ctrl+Shift+C" />
+        <key command="LayerProperties" shortcut="Shift+P" removed="true" />
+        <key command="LayerProperties" shortcut="F2" />
+        <key command="GotoPreviousLayer" context="Normal" shortcut="Down" removed="true" />
+        <key command="GotoNextLayer" context="Normal" shortcut="Up" removed="true" />
+        <key command="NewFrame" shortcut="Alt+N" removed="true" />
+        <key command="NewFrame" shortcut="6" />
+        <key command="NewFrame" shortcut="Alt+B" removed="true">
+            <param name="content" value="empty" />
+        </key>
+        <key command="NewFrame" shortcut="7">
+            <param name="content" value="empty" />
+        </key>
+        <key command="GotoPreviousFrameWithSameTag" shortcut="," removed="true" />
+        <key command="GotoNextFrameWithSameTag" shortcut="." removed="true" />
+        <key command="TogglePreview" shortcut="F7" removed="true" />
+        <key command="SnapToGrid" shortcut="Shift+S" removed="true" />
+        <key command="SetLoopSection" shortcut="F2" removed="true" />
+        <key command="ShowOnionSkin" shortcut="F3" removed="true" />
+        <key command="ShowOnionSkin" shortcut="O" />
+        <key command="ToggleTimelineThumbnails" shortcut="F6" removed="true" />
+        <key command="PaletteEditor" shortcut="A" removed="true" />
+        <key command="ChangeColor" shortcut="[" removed="true">
+            <param name="change" value="decrement-index" />
+            <param name="target" value="foreground" />
+        </key>
+        <key command="ChangeColor" shortcut="9">
+            <param name="change" value="decrement-index" />
+            <param name="target" value="foreground" />
+        </key>
+        <key command="ChangeColor" shortcut="]" removed="true">
+            <param name="change" value="increment-index" />
+            <param name="target" value="foreground" />
+        </key>
+        <key command="ChangeColor" shortcut="0">
+            <param name="change" value="increment-index" />
+            <param name="target" value="foreground" />
+        </key>
+        <key command="ChangeBrush" shortcut="+" removed="true">
+            <param name="change" value="increment-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="+ Pad" removed="true">
+            <param name="change" value="increment-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="=" removed="true">
+            <param name="change" value="increment-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="]">
+            <param name="change" value="increment-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="- Pad" removed="true">
+            <param name="change" value="decrement-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="-" removed="true">
+            <param name="change" value="decrement-size" />
+        </key>
+        <key command="ChangeBrush" shortcut="[">
+            <param name="change" value="decrement-size" />
+        </key>
+        <key command="Zoom" shortcut="6" removed="true">
+            <param name="percentage" value="3200" />
+        </key>
+        <key command="Zoom" shortcut="Ctrl++" removed="true">
+            <param name="action" value="in" />
+        </key>
+        <key command="Zoom" shortcut="Ctrl+=" removed="true">
+            <param name="action" value="in" />
+        </key>
+        <key command="Zoom" shortcut="Ctrl+Shift+=" removed="true">
+            <param name="action" value="in" />
+        </key>
+        <key command="Zoom" shortcut="Ctrl+.">
+            <param name="action" value="in" />
+        </key>
+        <key command="Zoom" shortcut="Ctrl+-" removed="true">
+            <param name="action" value="out" />
+        </key>
+        <key command="Zoom" shortcut="Ctrl+,">
+            <param name="action" value="out" />
+        </key>
+        <key command="GotoPreviousFrame" shortcut="A" />
+        <key command="GotoNextFrame" shortcut="D" />
+        <key command="SpriteSize" shortcut="Ctrl+Alt+I" />
+        <key command="Home" shortcut="F1" />
+        <key command="GridSettings" shortcut="Alt+&apos;" />
+        <key command="Flip" shortcut="Ctrl+Shift+H">
+            <param name="orientation" value="horizontal" />
+            <param name="target" value="canvas" />
+        </key>
+    </commands>
+    <tools>
+        <key tool="curve" shortcut="Shift+L" removed="true" />
+        <key tool="curve" shortcut="Shift+S" />
+        <key tool="contour" shortcut="D" removed="true" />
+        <key tool="polygon" shortcut="Shift+D" removed="true" />
+    </tools>
+    <quicktools>
+        <key tool="eraser" shortcut="C" />
+    </quicktools>
+    <actions />
+    <wheel />
+</keyboard>
