@@ -1,0 +1,27 @@
+# Steam\steamapps\common\GarrysMod\garrysmod\data\mapvote\config.txt
+{
+	"RTVPlayerCount": 3.0,
+	"OverplayedMapsWeight": 0.5,
+	"OverplayedMapsPattern": "^ttt_rooftops|^ttt_waterworld|^ttt_dolls|^ttt_67thway_v|^ttt_community_bowling|^ttt_community_pool|^ttt_lego",
+	"TimeLimit": 30.0,
+	"RTVCountSpectators": false,
+	"RTVPercentNeeded": 0.66,
+	"EnableCooldown": true,
+	"ThumbsFastDL": false,
+	"RandomMapOption": false,
+	"RTVWaitSeconds": 60.0,
+	"MapLimit": 4.0,
+	"DisabledMaps": [
+		"gm_example1",
+		"gm_example2"
+	],
+	"AllowCurrentMap": false,
+	"AllowedMaps": [
+		"gm_example1",
+		"gm_example2"
+	],
+	"MapsBeforeRevote": 3.0,
+	"MapPrefixes": [
+		"ttt_"
+	]
+}
